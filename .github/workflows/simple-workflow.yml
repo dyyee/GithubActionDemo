@@ -21,6 +21,5 @@ jobs:
         run: echo "Hello, world!"
 
       - name: Show secret
-        run: echo "The secret is ${{ secrets.SuperSecret }}"
+        run: echo "The secret is ${{ secrets.SuperSecret1 }}"
 
-        
